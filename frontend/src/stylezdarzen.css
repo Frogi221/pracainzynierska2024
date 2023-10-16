@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styl głównego kontenera */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Nagłówek */
+  .header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+  }
+  
+  /* Lista zdarzeń */
+  .event-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Zdarzenie */
+  .event {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Data zdarzenia */
+  .event-date {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Lokalizacja zdarzenia */
+  .event-location {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Opis zdarzenia */
+  .event-description {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Obrazek zdarzenia */
+  .event-image {
+    max-width: 100%;
+    margin-top: 20px;
+  }

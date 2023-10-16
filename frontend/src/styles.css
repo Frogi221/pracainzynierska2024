@@ -1,0 +1,119 @@
+/* Twój oryginalny CSS */
+.glowna-styl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .glowna-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    max-width: 400px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="date"],
+  input[type="time"],
+  input[type="text"],
+  textarea,
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button[type="button"] {
+    background-color: #4caf50;
+    margin-left: 10px;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #45a049;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  img {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Styl dla zdarzenia */
+  .zdarzenie {
+    background-color: #bd1313;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styl nagłówka listy zdarzeń */
+  .zdarzenia-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styl daty i godziny zdarzenia */
+  .zdarzenie-date {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Styl lokalizacji zdarzenia */
+  .zdarzenie-location {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Styl opisu zdarzenia */
+  .zdarzenie-description {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Styl obrazka zdarzenia */
+  .zdarzenie-image {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
