@@ -9,6 +9,7 @@ function Login() {
             password: ''
         })
         const navigate = useNavigate();
+        axios.defaults.withCredentials = true;
         const [errors, setErrors] = useState({})
         const [backendError,setBackendError] = useState({})
         const handleInput = (event) => {
